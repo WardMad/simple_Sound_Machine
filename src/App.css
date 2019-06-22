@@ -1,33 +1,76 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin: 70px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#sound-machine {
+  border: 3px solid rgb(216, 109, 38);
+  background-color: rgb(180, 171, 171);
+  width: 55%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#display {
+  padding: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: -20px 30px 0px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  color: rgb(41, 39, 39);
+  width: 100px;
+  height: 100px;
+  background-color: #a39e9e;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #868484;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-3px, 0, 0);
   }
-  to {
-    transform: rotate(360deg);
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
   }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.list p {
+  margin: 20px;
+}
+.pad {
+  margin: 5px;
+  font-family: monospace;
+  font-size: 17px;
+  padding: 16px;
+  background-color: #eeeeee;
+  border-radius: 25px;
+  text-align: center;
+  width: 87%;
+}
+.keyboard {
+  float: right;
+  border: 2px solid rgb(216, 109, 38);
+  height: 200px;
+  padding: 10px;
 }

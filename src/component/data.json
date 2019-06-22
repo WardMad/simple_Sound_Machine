@@ -1,0 +1,47 @@
+[{
+  "id":   "Q",
+  "description": "Glass breaking",
+  "sound": "https://www.pacdv.com/sounds/mechanical_sound_effects/glass_breaking_1.wav"
+},
+{
+  "id": "W",
+  "description": "Wait a minute",
+  "sound": "https://www.pacdv.com/sounds/voices/wait-a-minute.wav"
+},
+{
+  "id": "E",
+  "description": "Come on",
+  "sound": "https://www.pacdv.com/sounds/people_sound_effects/come_on_1.wav"
+},
+{
+  "id": "A",
+  "description": "Laugh",
+  "sound": "https://www.pacdv.com/sounds/people_sound_effects/laugh-11.wav"
+},
+{
+  "id": "S",
+  "description": "You Got It",
+  "sound": "https://www.pacdv.com/sounds/people_sound_effects/you_got_it_1.wav"
+},
+{
+  "id": "D",
+  "description": "Bye Bye ",
+  "sound": "https://www.pacdv.com/sounds/voices/bye-bye-1.wav"
+},
+{
+  "id": "Z",
+  "description": "Can you keep a secret",
+  "sound": "https://www.pacdv.com/sounds/voices/can-you-keep-a-secret.wav"
+},
+{
+  "id": "X",
+  "description": "Friday rocks!",
+  "sound": "https://www.pacdv.com/sounds/voices/friday-rocks.wav"
+},
+{
+  "id": "C",
+  "description": "Let me out of here",
+  "sound": "https://www.pacdv.com/sounds/voices/let-me-out-of-here-1.wav"
+}
+
+]
